@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лендинг</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#hero" class="nav__link">Главная</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+            </ul>
+        </nav>
+        <a href="#contacts"><button class="header__button">Связаться с нами</button></a>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1 class="hero__title">Добро пожаловать в нашу транспортную компанию!</h1>
+        <p class="hero__text">Узнайте больше о наших услугах по перевозкам и преимуществах.</p>
+        <button class="hero__button">Узнать больше</button>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="about__title">О нас</h2>
+        <p class="about__text">Мы — команда профессионалов, готовых помочь вам с любыми перевозками.</p>
+        <p>Наша организация осуществляет быстрые и доступные грузоперевозки автомобильным транспортом в любом направлении. Наша команда предлагает эффективные логистические решения и выполняет заказы любой сложности в кратчайшие сроки. Профессионализм и опыт нашей транспортной компании — это гарантия своевременной доставки и безопасности вашего груза. Мы обеспечиваем полный контроль на каждом этапе перевозки и предлагаем гибкие условия сотрудничества как для организаций, так и для частных клиентов.</p>
+        <h3 class="about__subtitle">Наши преимущества</h3>
+        <ul class="about__list">
+            <li class="about__item">Надежность и пунктуальность</li>
+            <li class="about__item">Широкий спектр транспортных средств</li>
+            <li class="about__item">Индивидуальный подход к каждому клиенту</li>
+        </ul>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="services__title">Наши услуги</h2>
+        <div class="services__cards">
+            <div class="card">
+                <img src="truck.jpg" alt="Грузоперевозки" class="card__image">
+                <h3 class="card__title">Грузоперевозки</h3>
+                <p class="card__description">Перевозка грузов по всей стране.</p>
+            </div>
+            <div class="card">
+                <img src="van.jpg" alt="Курьерская доставка" class="card__image">
+                <h3 class="card__title">Курьерская доставка</h3>
+                <p class="card__description">Быстрая доставка документов и мелких грузов.</p>
+            </div>
+            <div class="card">
+                <img src="container.jpg" alt="Контейнерные перевозки" class="card__image">
+                <h3 class="card__title">Контейнерные перевозки</h3>
+                <p class="card__description">Перевозка контейнеров любых размеров.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <h2 class="contacts__title">Контакты</h2>
+        <form class="contacts__form">
+            <input type="text" placeholder="Ваше имя" class="form__input">
+            <input type="email" placeholder="Ваш email" class="form__input">
+            <textarea placeholder="Ваше сообщение" class="form__textarea"></textarea>
+            <button type="submit" class="form__button">Отправить</button>
+        </form>
+    </section>
+</body>
+</html>
